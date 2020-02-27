@@ -1,0 +1,10 @@
+SOLVING:
+	- dodać pole solvera - mazeGraphics, podawać w konstruktorze
+	- przy każdym ruchu solvera wołamy mazeGraphics.moveSolver( this ) - zaimplementować
+	- w MazeGraphics.moveSolver( solver ) przesuwamy solvera dopóki nie dojdzie na odpowiednie miejsce - trochę bieda rozwiązanie, ale proste i powinno działać
+
+	- timer
+	- sprawdzanie ruchu po dystansie od current do toMove
+
+	- WallFollower - skręcanie musi być względne, tzn trzeba uwzględnić to, 
+	że solver się obraca kiedy dochodzi do ślepego zaułka (nie cofa się tyłem), trzeba zrobić zmienną na kierunek w którym solver patrzy i na tej podstawie wykonywać skręcanie w prawo
